@@ -1,0 +1,447 @@
+[
+  {
+    "no": 26,
+    "name": "Image Slider Web Page / css-sliding-cards",
+    "date": "2025-10-06",
+    "createdAt": "2025-10-05",
+    "skillStack": [
+      "css",
+      "html"
+    ],
+    "description": "CSS Sliding Cards 프로젝트 구현:\nHTML과 CSS로 제작된 반응형 인터랙티브 카드 UI, 클릭 시 카드 확장 및 상세 내용 표시",
+    "link": "https://devlunch4.github.io/css-sliding-cards/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 26,
+    "name": "Image Slider Web Page / css-img-slider-btn",
+    "date": "2025-10-06",
+    "createdAt": "2025-10-05",
+    "skillStack": [
+      "css",
+      "html",
+      "javascript"
+    ],
+    "description": "CSS/JS 기반 인터랙티브 이미지 슬라이더 웹페이지 구현:\n이미지 전환, 버튼 탐색, 애니메이션 효과 포함.",
+    "link": "https://devlunch4.github.io/css-img-slider-btn/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 25,
+    "name": "clone-X/트위터 - nwitter",
+    "date": "2025-09-22",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "react",
+      "vite",
+      "javascript",
+      "html",
+      "css",
+      "firebase",
+      "firebasedatabase"
+    ],
+    "description": "실시간 트윗 작성/수정/삭제, 이미지 업로드 자동 압축(Base64),\n사용자 인증 및 권한 관리, Firestore 실시간 동기화, 반응형 레이아웃과 편집/삭제 UI",
+    "link": "https://nwitter-v2.web.app/",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 24,
+    "name": "Snake-Game-Js",
+    "date": "2023-12-31",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "JavaScript Snake Game 구현:\nHTML, CSS, JS로 제작된 클래식 뱀 게임으로, 유튜브 튜토리얼을 참고해 개발.",
+    "link": "https://devlunch4.github.io/snake-game-js/",
+    "filter": "other",
+    "img": ""
+  },
+  {
+    "no": 23,
+    "name": "MERN AI 블로그 서비스 (클라이언트 & 서버) - quickBlog + youtube 시연",
+    "date": "2025-09-26",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "react",
+      "vite",
+      "node",
+      "express",
+      "openAI",
+      "gemini",
+      "mongodb",
+      "imageKit",
+      "multer",
+      "JWT",
+      "Quill",
+      "tailwindcss",
+      "javascript",
+      "html",
+      "css",
+      "vercel"
+    ],
+    "description": "AI 기반 블로그 콘텐츠 생성, 댓글 관리, 관리자 대시보드, 블로그 추가/편집/삭제, 반응형 UI",
+    "link": "https://quickblog-mern.vercel.app/",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 21,
+    "name": "PERN AI 이미지 서비스 (클라이언트 & 서버) - quickAI",
+    "date": "2025-08-08",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "react",
+      "vite",
+      "node",
+      "express",
+      "openAI",
+      "gemini",
+      "clipdrop",
+      "mongodb",
+      "clerk",
+      "cloudinary",
+      "tailwindcss",
+      "javascript",
+      "html",
+      "css",
+      "firebase",
+      "vercel"
+    ],
+    "description": "AI 이미지 생성/편집, 텍스트 콘텐츠 작성, 이력서 리뷰, 대시보드 및 커뮤니티 기능, 무료/유료 서비스 제공",
+    "link": "https://quickai-pern-v2.vercel.app/",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 20,
+    "name": "MERN 호텔 예약 시스템 (클라이언트 & 서버) - quickStay",
+    "date": "2025-07-13",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "react",
+      "vite",
+      "node",
+      "express",
+      "mongodb",
+      "clerk",
+      "cloudinary",
+      "tailwindcss",
+      "javascript",
+      "html",
+      "css",
+      "firebase",
+      "vercel"
+    ],
+    "description": "여행자는 호텔 검색/예약/관리, 호텔 운영자는 객실·예약·수익 관리 가능",
+    "link": "https://quickstay-cli-srv-frontend.vercel.app/",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 18,
+    "name": "여행 계획 앱 (프론트엔드) - trippy-react-app Private",
+    "date": "2025-07-06",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "여행지 정보 제공, 여행 패키지 탐색, 여행 계획 및 문의/응답 기능",
+    "link": "https://trippy-react-app.web.app/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 17,
+    "name": "Testimonials Grid Section",
+    "date": "2025-01-30",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "GitHub 사용자 리포지토리 검색 웹앱:\nGitHub API를 통해 공개 리포지토리를 조회하고 JSON 복사 기능을 제공.",
+    "link": "https://devlunch4.github.io/get-github-repos-web/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 16,
+    "name": "Testimonials Grid Section",
+    "date": "2025-06-03",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "Frontend Mentor Testimonials Grid Section 구현:\nHTML/CSS 기반 반응형 후기 그리드 섹션.",
+    "link": "https://devlunch4.github.io/testimonials-grid-section_frontend_mentor/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 15,
+    "name": "Image Track Practice",
+    "date": "2025-06-03",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "HTML, CSS, JavaScript로 만든 인터랙티브 이미지 트랙 슬라이더 연습 프로젝트.",
+    "link": "https://devlunch4.github.io/image-track-practice/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 14,
+    "name": "Four card feature section",
+    "date": "2025-06-03",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "html",
+      "css"
+    ],
+    "description": "Frontend Mentor Four Card Feature Section 구현:\nHTML/CSS로 제작된 반응형 카드형 레이아웃.",
+    "link": "https://devlunch4.github.io/four-card-feature-section_frontend_mentor/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 13,
+    "name": "FAQ accordion",
+    "date": "2025-06-03",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "Frontend Mentor FAQ Accordion 구현:\nHTML, CSS, JavaScript로 질문 클릭 시 답변 표시되는 반응형 아코디언 UI.",
+    "link": "https://devlunch4.github.io/faq-accordion_frontend_mentor/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 12,
+    "name": "날씨 리액트 앱 / Weather React App",
+    "date": "2025-04-22",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "react",
+      "javascript",
+      "html",
+      "css",
+      "firebase",
+      "api"
+    ],
+    "description": "React 기반 반응형 날씨 앱으로, 도시별 날씨 검색, 즐겨찾기,\n구글 로그인 기능을 제공하며 Firebase로 호스팅됨.",
+    "link": "https://weather-react-app-d391c.web.app/",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 11,
+    "name": "간단한 채팅 / lunch-chat",
+    "date": "2025-02-22",
+    "createdAt": "2025-04-13",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css",
+      "react",
+      "firebase"
+    ],
+    "description": "React와 Firebase로 만든 간단한 채팅 앱:\n실시간 메시지 전송 및 반응형 UI 지원.",
+    "link": "https://lunch-chat.web.app/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 10,
+    "name": "텍스트 분석 도구 / Text Analyzer",
+    "date": "2025-02-22",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "javascript",
+      "html",
+      "css"
+    ],
+    "description": "HTML, CSS, JavaScript로 만든 반응형 텍스트 분석 도구:\n글자 수 계산, 반복 단어 추출, 마크다운 뷰어 기능 포함.",
+    "link": "https://devlunch4.github.io/my-text-analyzer/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 9,
+    "name": "Results summary component",
+    "date": "2025-01-22",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "html",
+      "css"
+    ],
+    "description": "Frontend Mentor Results Summary Component 구현:\n반응형 레이아웃과 인터랙티브 요소, JSON 기반 동적 콘텐츠 포함.",
+    "link": "https://devlunch4.github.io/results-summary-component_frontend_mentor/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 8,
+    "name": "Order summary component",
+    "date": "2025-01-22",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "html",
+      "css"
+    ],
+    "description": "Frontend Mentor Order Summary Card 구현:\nHTML/CSS로 인터랙티브 요소 포함 레이아웃 제작.",
+    "link": "https://devlunch4.github.io/order-summary-component_frontend_mentor/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 7,
+    "name": "Product preview card component",
+    "date": "2025-01-22",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "html",
+      "css"
+    ],
+    "description": "Frontend Mentor Product Preview Card 구현:\n반응형 레이아웃과 인터랙티브 요소 포함.",
+    "link": "https://devlunch4.github.io/product-preview-card-component_frontend_mentor/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 6,
+    "name": "Vanilla Dashboard",
+    "date": "2025-01-22",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "description": "바닐라 JS로 만든 간단한 크롬 앱: 로그인, 환영 메시지, 날씨 표시, 할 일 목록 포함.",
+    "link": "https://devlunch4.github.io/nomadcoders_javascript-for-beginners/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 5,
+    "name": "김치런-unity-Kimchi-Run-by-devlunch4",
+    "date": "2025-01-22",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "unity"
+    ],
+    "description": "Unity6 Challenge 프로젝트로 시작한 Kimchi Run 게임.",
+    "link": "https://play.unity.com/en/games/caee619b-0ed2-417d-b3c8-985ca023be4f/kimchi-run-by-devlunch4",
+    "filter": "other",
+    "img": ""
+  },
+  {
+    "no": 4,
+    "name": "split_double_page_pdf-2장보기 PDF 좌우 분할 프로그램",
+    "date": "2024-12-04",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "python"
+    ],
+    "description": "Python 기반 Mac용 PDF 좌우 분할 변환 프로그램",
+    "link": "https://github.com/devlunch4/split_double_page_pdf",
+    "filter": "other",
+    "img": ""
+  },
+  {
+    "no": 3,
+    "name": "TASK-LIST",
+    "date": "2021-03-31",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "html",
+      "css",
+      "javascript"
+    ],
+    "description": "HTML/CSS/JS로 간단한 Task List 웹페이지 제작.",
+    "link": "https://devlunch4.github.io/IBM_course_Develop_an_Interactive_Task_List_Web-Page/",
+    "filter": "front end",
+    "img": ""
+  },
+  {
+    "no": 3,
+    "name": "똑똑한 농부들-개발자과정-최종프로젝트",
+    "date": "2021-03-31",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "javascript",
+      "spring",
+      "bootstrap4",
+      "java",
+      "jsp"
+    ],
+    "description": "영농 지원 웹: 회원·장터·데이터 분석·농업 정보 관리, Arduino연동·차트·파일 처리, 관리자 기능 포함\n3팀 공동 개발-DDIT",
+    "link": "https://github.com/devlunch4/3TeamFinalProject",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 2,
+    "name": "자바콘솔 도서관 관리-개발자과정-초급프로젝트",
+    "date": "2020-10-27",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "java",
+      "sql"
+    ],
+    "description": "콘솔에서 작동하는 온라인 도서관 관리 프로그램(Java 팀 프로젝트)-DDIT",
+    "link": "https://github.com/devlunch4/midProject_webHotelManage",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 1,
+    "name": "웹 호텔 관리-개발자과정-중급프로젝트",
+    "date": "2020-12-18",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "java",
+      "sql",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "description": "웹 기반 호텔 관리 시스템: 회원·예약·게시판·호텔 정보·관리자 기능 포함,\nJava와 JDBC 기반, DDIT",
+    "link": "https://github.com/devlunch4/midProject_webHotelManage",
+    "filter": "full stack",
+    "img": ""
+  },
+  {
+    "no": 0,
+    "name": "github repo",
+    "date": "2025-10-06",
+    "createdAt": "2025-10-06",
+    "skillStack": [
+      "java",
+      "react",
+      "sql",
+      "html"
+    ],
+    "description": "github",
+    "link": "https://github.com/devlunch4",
+    "filter": "full stack",
+    "img": ""
+  }
+]
