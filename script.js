@@ -114,6 +114,14 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
     `;
+      // Add touch events for mobile hover effect
+      card.addEventListener('touchstart', () => {
+        card.classList.add('hover');
+      });
+
+      card.addEventListener('touchend', () => {
+        card.classList.remove('hover');
+      });
 
       grid.appendChild(card);
     });

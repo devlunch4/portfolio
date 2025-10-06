@@ -118,7 +118,9 @@ body {
     transition: box-shadow 0.2s;
 }
 
-.project-card:hover {
+/* .hover for mobile touch */
+.project-card:hover,
+.project-card.hover {
     box-shadow: -7px 7px 0 var(--border);
 }
 
@@ -144,7 +146,10 @@ body {
     border: 1px solid var(--border);
     box-shadow: 7px -7px 0 lavender;
 }
-.project-card.highlight:hover {
+
+/* .hover for mobile touch */
+.project-card.highlight:hover,
+.project-card.highlight.hover {
     border: 1px solid var(--border);
     box-shadow: -7px 7px 0 darkcyan;
 }
