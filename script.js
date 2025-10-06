@@ -55,32 +55,37 @@ document.addEventListener('DOMContentLoaded', () => {
     applyFilters(filter, document.getElementById('searchInput').value.toLowerCase());
   }
 
-// === Search projects by skill ===
-document.getElementById('searchInput').addEventListener('input', (e) => {
-  const searchTerm = e.target.value.toLowerCase();
-  const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
-  visibleCount = 10; // Reset on new search
-  applyFilters(activeFilter, searchTerm);
-});
+  // === Search projects by skill ===
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
+    visibleCount = 10; // Reset on new search
+    applyFilters(activeFilter, searchTerm);
+  });
 
-// === Apply filters + search ===
-function applyFilters(filter, searchTerm) {
-  filteredProjects = projects;
+  // === Apply filters + search ===
+  function applyFilters(filter, searchTerm) {
+    filteredProjects = projects;
 
-  if (filter !== 'all') {
-    filteredProjects = filteredProjects.filter(p => p.filter.toLowerCase() === filter);
-  }
+    if (filter !== 'all') {
+      if (filter === 'highlight') {
+        // highlight 프로젝트만 선택
+        filteredProjects = filteredProjects.filter(p => p.highlight === true);
+    } else {
+        filteredProjects = filteredProjects.filter(p => p.filter.toLowerCase() === filter);
+    }
+    }
 
-  if (searchTerm) {
-    const keywords = searchTerm.split(' ').filter(kw => kw.trim()); // Split into keywords
-    filteredProjects = filteredProjects.filter(p =>
-      keywords.some(kw => // OR condition: any keyword matches any skill
-        p.skillStack.some(skill => skill.toLowerCase().includes(kw))
-      )
-    );
-  }
+    if (searchTerm) {
+      const keywords = searchTerm.split(' ').filter(kw => kw.trim()); // Split into keywords
+      filteredProjects = filteredProjects.filter(p =>
+        keywords.some(kw => // OR condition: any keyword matches any skill
+          p.skillStack.some(skill => skill.toLowerCase().includes(kw))
+        )
+      );
+    }
 
-  renderProjects();
+    renderProjects();
   }
 
   // === Render projects (only visibleCount items) ===
@@ -92,19 +97,22 @@ function applyFilters(filter, searchTerm) {
     toShow.forEach(project => {
       const card = document.createElement('div');
       card.className = 'project-card';
+      if (project.highlight) card.classList.add('highlight'); // 강조 적용
       card.innerHTML = `
-      <div class="project-no-${project.no}">
-        ${project.img ? `<img src="${project.img}" alt="${project.name}">` : ''}
-        <h3>${project.name}</h3>
-        <p>${project.description.replace(/\n/g, '<br>')}</p>
-        <div class="skills">
-          ${project.skillStack && project.skillStack.length > 0
-          ? project.skillStack.map(skill => `<span class="skill">${skill}</span>`).join('')
-          : ''}
-        </div>
-        <p class="date">Date: ${project.date}</p>
-        <a href="${project.link}" target="_blank" class="view-project-btn">View Project</a>
-      </div>
+          <div class="project-no-${project.no}">
+            ${project.img ? `<img src="${project.img}" alt="${project.name}">` : ''}
+            <h3>${project.name}</h3>
+            <p>${project.description.replace(/\n/g, '<br>')}</p>
+            <div class="skills">
+              ${project.skillStack && project.skillStack.length > 0
+                ? project.skillStack.map(skill => `<span class="skill">${skill}</span>`).join('')
+                : ''}
+            </div>
+            <div class="project-meta">
+              <p class="date">Date: ${project.date}</p>
+              <a href="${project.link}" target="_blank" class="view-project-btn">View Project</a>
+            </div>
+          </div>
     `;
 
       grid.appendChild(card);

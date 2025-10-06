@@ -90,15 +90,20 @@ body {
 .filter-btn:hover {
     background: var(--border);
     color: white;
+    box-shadow: -7px 7px 0 gray;
 }
 
-.filter-btn:hover {
-    background: var(--border);
-    color: white;
-    box-shadow: -7px 7px 0 red;
+/* HIGHLIGHT 버튼만 별도 색상 */
+.filter-btn[data-filter="highlight"] {
+    background-color: lavender;
+    color: black;
 }
 
-
+/* HIGHLIGHT 버튼 활성화 시 */
+.filter-btn[data-filter="highlight"].active {
+    background-color: lavender; /* 활성화 색상 */
+    color: black;
+}
 
 .project-grid {
     display: grid;
@@ -135,6 +140,30 @@ body {
     color: #666;
 }
 
+.project-card.highlight {
+    border: 1px solid var(--border);
+    box-shadow: 7px -7px 0 lavender;
+}
+.project-card.highlight:hover {
+    border: 1px solid var(--border);
+    box-shadow: -7px 7px 0 darkcyan;
+}
+
+.project-meta {
+    display: flex;
+    justify-content: space-between; /* 좌측: 날짜, 우측: 버튼 */
+    align-items: center;
+    margin-top: 0.5rem; 
+}
+
+.project-meta .date {
+    margin: 0; 
+}
+
+.project-meta .view-project-btn {
+    margin: 0; 
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +192,7 @@ body {
 .view-project-btn {
     padding: 0.5rem 1rem;
     border: 1px solid var(--border);
-    background: white;
+    background: silver;
     cursor: pointer;
     transition: all 0.2s;
 }
