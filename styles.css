@@ -229,3 +229,72 @@ body {
 body.loading {
     cursor: wait;
 }
+
+/* 모바일 대응: 640px 이하 */
+@media (max-width: 640px) {
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .search-container input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr; /* 1열로 변경 */
+        gap: 0.5rem;
+    }
+
+    .project-card img {
+        height: 150px;
+    }
+
+    .project-card h3 {
+        font-size: 1rem;
+    }
+
+    .project-card p {
+        font-size: 0.875rem;
+    }
+
+    .skills {
+        gap: 0.25rem;
+    }
+
+    .view-project-btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+    }
+
+    .project-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+    }
+}
