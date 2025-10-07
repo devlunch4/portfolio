@@ -1,6 +1,28 @@
 [
   {
-    "no": 26,
+    "no": 28,
+    "name": "NEXT-BLOG / Next.js 블로그 플랫폼",
+    "date": "2025-10-08",
+    "createdAt": "2025-10-08",
+    "skillStack": [
+      "next",
+      "react",
+      "axios",
+      "mongoose",
+      "tailwindcss",
+      "javascript",
+      "html",
+      "css",
+      "react-hot-toast"
+    ],
+    "description": "Next.js와 MongoDB 기반 블로그 플랫폼. 관리자 대시보드(CRUD, 구독자 관리),\n이미지 업로드 최적화(크기/압축, PNG/Data URL), 반응형 UI",
+    "link": "https://next-blog-lunch.vercel.app/",
+    "filter": "full stack",
+    "img": "",
+    "highlight": true
+  },
+  {
+    "no": 27,
     "name": "Image Slider Web Page / css-sliding-cards",
     "date": "2025-10-06",
     "createdAt": "2025-10-05",
