@@ -99,7 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
       card.className = 'project-card';
       if (project.highlight) card.classList.add('highlight'); // 강조 적용
       card.innerHTML = `
-          <div class="project-no-${project.no}">
             ${project.img ? `<img src="${project.img}" alt="${project.name}">` : ''}
             <h3>${project.name}</h3>
             <p>${project.description.replace(/\n/g, '<br>')}</p>
@@ -112,7 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
               <p class="date">Date: ${project.date}</p>
               <a href="${project.link}" target="_blank" class="view-project-btn">View Project</a>
             </div>
-          </div>
     `;
       // Add touch events for mobile hover effect
       card.addEventListener('touchstart', () => {

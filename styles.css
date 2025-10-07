@@ -117,6 +117,8 @@ body {
     border: 1px solid var(--border);
     padding: 1rem;
     transition: box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
 }
 
 /* .hover for mobile touch */
@@ -159,7 +161,7 @@ body {
     display: flex;
     justify-content: space-between; /* 좌측: 날짜, 우측: 버튼 */
     align-items: center;
-    margin-top: 0.5rem; 
+    margin-top: auto; 
 }
 
 .project-meta .date {
@@ -231,7 +233,6 @@ body.loading {
     cursor: wait;
 }
 
-/* 모바일 대응: 640px 이하 */
 @media (max-width: 640px) {
     .container {
         padding: 0 0.75rem; /* 좌우 여백 조정 */
