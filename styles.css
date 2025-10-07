@@ -1,3 +1,4 @@
+
 :root {
     --background: #ffffff;
     --foreground: #171717;
@@ -233,68 +234,74 @@ body.loading {
 /* 모바일 대응: 640px 이하 */
 @media (max-width: 640px) {
     .container {
-        padding: 0 0.5rem;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 0.5rem;
+        padding: 0 0.75rem; /* 좌우 여백 조정 */
     }
 
     .header .container {
         flex-direction: column;
         align-items: center;
+        gap: 1rem; /* 로고와 연락처 사이 간격 추가 */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* 로고 크기 살짝 조정 */
+        text-align: center;
+        width: 100%;
     }
 
     .contact {
         display: flex;
         flex-direction: column;
-        gap: 0.25rem;
+        gap: 0.5rem;
         text-align: center;
-        margin-top: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.8rem; /* 제목 크기 조정 */
     }
 
     .search-container input {
         width: 100%;
-        max-width: 100%;
     }
 
     .filters {
         flex-wrap: wrap;
-        gap: 0.5rem;
+        gap: 0.75rem; /* 버튼 간격 조정 */
     }
 
     .project-grid {
-        grid-template-columns: 1fr; /* 1열로 변경 */
-        gap: 0.5rem;
+        grid-template-columns: 1fr; /* 1열 그리드로 변경 */
+        gap: 1.5rem; /* 카드 사이 간격 조정 */
+    }
+
+    .project-card {
+        padding: 1.25rem; /* 카드 내부 여백 추가 */
     }
 
     .project-card img {
-        height: 150px;
+        height: 180px; /* 이미지 높이 조정 */
     }
 
     .project-card h3 {
-        font-size: 1rem;
+        font-size: 1.15rem;
     }
 
     .project-card p {
-        font-size: 0.875rem;
+        font-size: 0.9rem;
     }
 
     .skills {
-        gap: 0.25rem;
-    }
-
-    .view-project-btn {
-        padding: 0.25rem 0.5rem;
-        font-size: 0.875rem;
+        gap: 0.4rem;
     }
 
     .project-meta {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.25rem;
+        gap: 0.75rem; /* 날짜와 버튼 사이 간격 추가 */
+    }
+    
+    .view-project-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
     }
 }
