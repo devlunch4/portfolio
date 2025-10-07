@@ -85,8 +85,7 @@
         "description": "JavaScript Snake Game 구현:\nHTML, CSS, JS로 제작된 클래식 뱀 게임으로, 유튜브 튜토리얼을 참고해 개발.",
         "link": "https://devlunch4.github.io/snake-game-js/",
         "filter": "other",
-        "img": "",
-        "highlight": true
+        "img": ""
     },
     {
         "no": 23,
@@ -118,7 +117,7 @@
         "highlight": true
     },
     {
-        "no": 21,
+        "no": 22,
         "name": "PERN AI 이미지 서비스 (클라이언트 & 서버) - quickAI",
         "date": "2025-08-08",
         "createdAt": "2025-04-13",
@@ -147,7 +146,7 @@
         "highlight": true
     },
     {
-        "no": 20,
+        "no": 21,
         "name": "MERN 호텔 예약 시스템 (클라이언트 & 서버) - quickStay",
         "date": "2025-07-13",
         "createdAt": "2025-04-13",
@@ -172,7 +171,7 @@
         "img": ""
     },
     {
-        "no": 18,
+        "no": 20,
         "name": "여행 계획 앱 (프론트엔드) - trippy-react-app Private",
         "date": "2025-07-06",
         "createdAt": "2025-04-13",
@@ -187,7 +186,7 @@
         "img": ""
     },
     {
-        "no": 17,
+        "no": 19,
         "name": "Testimonials Grid Section",
         "date": "2025-01-30",
         "createdAt": "2025-04-13",
@@ -202,7 +201,7 @@
         "img": ""
     },
     {
-        "no": 16,
+        "no": 18,
         "name": "Testimonials Grid Section",
         "date": "2025-06-03",
         "createdAt": "2025-04-13",
@@ -217,7 +216,7 @@
         "img": ""
     },
     {
-        "no": 15,
+        "no": 17,
         "name": "Image Track Practice",
         "date": "2025-06-03",
         "createdAt": "2025-04-13",
@@ -232,7 +231,7 @@
         "img": ""
     },
     {
-        "no": 14,
+        "no": 16,
         "name": "Four card feature section",
         "date": "2025-06-03",
         "createdAt": "2025-04-13",
@@ -246,7 +245,7 @@
         "img": ""
     },
     {
-        "no": 13,
+        "no": 15,
         "name": "FAQ accordion",
         "date": "2025-06-03",
         "createdAt": "2025-04-13",
@@ -261,7 +260,7 @@
         "img": ""
     },
     {
-        "no": 12,
+        "no": 14,
         "name": "날씨 리액트 앱 / Weather React App",
         "date": "2025-04-22",
         "createdAt": "2025-04-13",
@@ -276,11 +275,10 @@
         "description": "React 기반 반응형 날씨 앱으로, 도시별 날씨 검색, 즐겨찾기,\n구글 로그인 기능을 제공하며 Firebase로 호스팅됨.",
         "link": "https://weather-react-app-d391c.web.app/",
         "filter": "full stack",
-        "img": "",
-        "highlight": true
+        "img": ""
     },
     {
-        "no": 11,
+        "no": 13,
         "name": "간단한 채팅 / lunch-chat",
         "date": "2025-02-22",
         "createdAt": "2025-04-13",
@@ -297,7 +295,7 @@
         "img": ""
     },
     {
-        "no": 10,
+        "no": 12,
         "name": "텍스트 분석 도구 / Text Analyzer",
         "date": "2025-02-22",
         "createdAt": "2025-10-06",
@@ -312,7 +310,7 @@
         "img": ""
     },
     {
-        "no": 9,
+        "no": 11,
         "name": "Results summary component",
         "date": "2025-01-22",
         "createdAt": "2025-10-06",
@@ -326,7 +324,7 @@
         "img": ""
     },
     {
-        "no": 8,
+        "no": 10,
         "name": "Order summary component",
         "date": "2025-01-22",
         "createdAt": "2025-10-06",
@@ -340,7 +338,7 @@
         "img": ""
     },
     {
-        "no": 7,
+        "no": 9,
         "name": "Product preview card component",
         "date": "2025-01-22",
         "createdAt": "2025-10-06",
@@ -354,7 +352,7 @@
         "img": ""
     },
     {
-        "no": 6,
+        "no": 8,
         "name": "Vanilla Dashboard",
         "date": "2025-01-22",
         "createdAt": "2025-10-06",
@@ -369,7 +367,7 @@
         "img": ""
     },
     {
-        "no": 5,
+        "no": 7,
         "name": "김치런-unity-Kimchi-Run-by-devlunch4",
         "date": "2025-01-22",
         "createdAt": "2025-10-06",
@@ -382,7 +380,7 @@
         "img": ""
     },
     {
-        "no": 4,
+        "no": 6,
         "name": "split_double_page_pdf-2장보기 PDF 좌우 분할 프로그램",
         "date": "2024-12-04",
         "createdAt": "2025-10-06",
@@ -396,7 +394,7 @@
         "highlight": true
     },
     {
-        "no": 3,
+        "no": 5,
         "name": "TASK-LIST",
         "date": "2021-03-31",
         "createdAt": "2025-10-06",
@@ -411,7 +409,7 @@
         "img": ""
     },
     {
-        "no": 3,
+        "no": 4,
         "name": "똑똑한 농부들-개발자과정-최종프로젝트",
         "date": "2021-03-31",
         "createdAt": "2025-10-06",
@@ -425,11 +423,10 @@
         "description": "영농 지원 웹: 회원·장터·데이터 분석·농업 정보 관리, Arduino연동·차트·파일 처리, 관리자 기능 포함\n3팀 공동 개발-DDIT",
         "link": "https://github.com/devlunch4/3TeamFinalProject",
         "filter": "full stack",
-        "img": "",
-        "highlight": true
+        "img": ""
     },
     {
-        "no": 2,
+        "no": 3,
         "name": "자바콘솔 도서관 관리-개발자과정-초급프로젝트",
         "date": "2020-10-27",
         "createdAt": "2025-10-06",
@@ -443,7 +440,7 @@
         "img": ""
     },
     {
-        "no": 1,
+        "no": 2,
         "name": "웹 호텔 관리-개발자과정-중급프로젝트",
         "date": "2020-12-18",
         "createdAt": "2025-10-06",
@@ -460,7 +457,7 @@
         "img": ""
     },
     {
-        "no": 0,
+        "no": 1,
         "name": "github repo",
         "date": "2025-10-06",
         "createdAt": "2025-10-06",
@@ -475,4 +472,4 @@
         "filter": "full stack",
         "img": ""
     }
-]Ï
+]
