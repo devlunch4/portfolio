@@ -297,9 +297,9 @@ body.loading {
     }
 
     .project-meta {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.75rem; /* 날짜와 버튼 사이 간격 추가 */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     
     .view-project-btn {
