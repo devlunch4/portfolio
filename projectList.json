@@ -85,7 +85,8 @@
     "description": "JavaScript Snake Game 구현:\nHTML, CSS, JS로 제작된 클래식 뱀 게임으로, 유튜브 튜토리얼을 참고해 개발.",
     "link": "https://devlunch4.github.io/snake-game-js/",
     "filter": "other",
-    "img": ""
+    "img": "",
+    "highlight": true
   },
   {
     "no": 23,
@@ -275,7 +276,8 @@
     "description": "React 기반 반응형 날씨 앱으로, 도시별 날씨 검색, 즐겨찾기,\n구글 로그인 기능을 제공하며 Firebase로 호스팅됨.",
     "link": "https://weather-react-app-d391c.web.app/",
     "filter": "full stack",
-    "img": ""
+    "img": "",
+    "highlight": true
   },
   {
     "no": 11,
@@ -424,6 +426,7 @@
     "link": "https://github.com/devlunch4/3TeamFinalProject",
     "filter": "full stack",
     "img": ""
+    "highlight": true
   },
   {
     "no": 2,
