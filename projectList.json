@@ -33,8 +33,7 @@
         "description": "CSS Sliding Cards 프로젝트 구현:\nHTML과 CSS로 제작된 반응형 인터랙티브 카드 UI, 클릭 시 카드 확장 및 상세 내용 표시",
         "link": "https://devlunch4.github.io/css-sliding-cards/",
         "filter": "front end",
-        "img": "",
-        "highlight": true
+        "img": ""
     },
     {
         "no": 26,
@@ -49,8 +48,7 @@
         "description": "CSS/JS 기반 인터랙티브 이미지 슬라이더 웹페이지 구현:\n이미지 전환, 버튼 탐색, 애니메이션 효과 포함.",
         "link": "https://devlunch4.github.io/css-img-slider-btn/",
         "filter": "front end",
-        "img": "",
-        "highlight": true
+        "img": ""
     },
     {
         "no": 25,
