@@ -15,8 +15,8 @@
 
   # 설치할 패키지 목록
   packages = [
-    pkgs.nodejs_20
-    pkgs.nodePackages.live-server
+    # pkgs.nodejs_20
+    # pkgs.nodePackages.live-server
   ];
 
   # 환경 변수 설정
@@ -32,16 +32,16 @@
       enable = true;
 
       previews = {
-        web = {
-          # 웹 프리뷰용 명령어
-          command = ["npx" "live-server" "--port=$PORT" "--open=./" "--watch=./"];
-          manager = "web";
+        # web = {
+        #   # 웹 프리뷰용 명령어
+        #   command = ["npx" "live-server" "--port=$PORT" "--open=./" "--watch=./"];
+        #   manager = "web";
 
-          # PORT 환경 변수 설정
-          env = {
-            PORT = "$PORT";
-          };
-        };
+        #   # PORT 환경 변수 설정
+        #   env = {
+        #     PORT = "$PORT";
+        #   };
+        # };
       };
     };
 
