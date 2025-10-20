@@ -16,13 +16,12 @@
             "dotenv",
             "requests"
         ],
-        "description": "Flask와 FastAPI 기반 감정 분류 웹서비스. 사용자 입력 문장을 긍정/부정으로 판별하고 MongoDB에 저장.\n Render를 이용해 클라이언트-서버 분리 배포.",
+        "description": "Flask와 FastAPI 기반 감정 분류 웹서비스. 사용자 입력 문장을 긍정/부정으로 판별하고 MongoDB에 저장,\nRender를 이용해 클라이언트-서버 분리 배포.",
         "link": "https://ai-senti-class-v1-client.onrender.com/",
         "filter": "full stack",
         "img": "",
         "highlight": true
     },
-    
     {
         "no": 28,
         "name": "NEXT-BLOG / Next.js 블로그 플랫폼",
