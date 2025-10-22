@@ -1,11 +1,34 @@
 [
     {
+        "no": 30,
+        "name": "AI Sentiment Classification - 감정분류기 v2",
+        "date": "2025-10-23",
+        "createdAt": "2025-10-23",
+        "skillStack": [
+            "react",
+            "Render",
+            "Python",
+            "FastAPI",
+            "MongoDB",
+            "Vite",
+            "TailwindCSS",
+            "dotenv",
+            "server",
+            "client"
+        ],
+        "description": "FastAPI 기반 감정 분류 웹서비스 v2. 사용자 입력 문장을 긍정/부정으로 판별하고 MongoDB에 저장.\n클라이언트는 React와 Vite로 구축되었으며, Render 통해 배포됩니다.",
+        "link": "",
+        "filter": "full stack",
+        "img": "",
+        "highlight": true
+    },
+    {
         "no": 29,
         "name": "AI Sentiment Classification - 감정분류기",
         "date": "2025-10-20",
         "createdAt": "2025-10-20",
         "skillStack": [
-            "Render",        
+            "Render",
             "Python",
             "FastAPI",
             "Flask",
