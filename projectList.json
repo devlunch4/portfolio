@@ -1,4 +1,26 @@
 [
+
+    {
+        "no": 31,
+        "name": "RabbitMQ를 활용한 React & Node.js 풀스택 웹앱",
+        "date": "2025-11-24",
+        "createdAt": "2025-11-24",
+        "skillStack": [
+            "react",
+            "vite",
+            "nodejs",
+            "express",
+            "vercel",
+            "css",
+            "server",
+            "client"
+        ],
+        "description": "RabbitMQ 메시지 큐(amqps)를 활용하여 React와 Node.js(Express) 백엔드를 연동한 풀스택 프로젝트입니다.\nVercel을 통해 프론트엔드와 백엔드가 각각 배포 및 연동됩니다.",
+        "link": "https://rabbitmq-tutorial-web.vercel.app/",
+        "filter": "full stack",
+        "img": "",
+        "highlight": true
+    },
     {
         "no": 30,
         "name": "AI Sentiment Classification - 감정분류기 v2",
@@ -10,13 +32,13 @@
             "Python",
             "FastAPI",
             "MongoDB",
-            "Vite",
-            "TailwindCSS",
+            "vite",
+            "Tailwindcss",
             "dotenv",
             "server",
             "client"
         ],
-        "description": "FastAPI 기반 감정 분류 웹서비스 v2. 사용자 입력 문장을 긍정/부정으로 판별하고 MongoDB에 저장.\n클라이언트는 React와 Vite, 서버는 Python로 구축, Render 통해 배포됩니다.",
+        "description": "FastAPI 기반 감정 분류 웹서비스 v2. 사용자 입력 문장을 긍정/부정으로 판별하고 MongoDB에 저장.\n클라이언트는 React와 vite, 서버는 Python로 구축, Render 통해 배포됩니다.",
         "link": "https://ai-senti-class-v2-client.onrender.com/",
         "filter": "full stack",
         "img": "",
@@ -77,7 +99,7 @@
             "css",
             "html"
         ],
-        "description": "CSS Sliding Cards 프로젝트 구현:\nHTML과 CSS로 제작된 반응형 인터랙티브 카드 UI, 클릭 시 카드 확장 및 상세 내용 표시",
+        "description": "css Sliding Cards 프로젝트 구현:\nHTML과 css로 제작된 반응형 인터랙티브 카드 UI, 클릭 시 카드 확장 및 상세 내용 표시",
         "link": "https://devlunch4.github.io/css-sliding-cards/",
         "filter": "front end",
         "img": ""
@@ -92,7 +114,7 @@
             "html",
             "javascript"
         ],
-        "description": "CSS/JS 기반 인터랙티브 이미지 슬라이더 웹페이지 구현:\n이미지 전환, 버튼 탐색, 애니메이션 효과 포함.",
+        "description": "css/JS 기반 인터랙티브 이미지 슬라이더 웹페이지 구현:\n이미지 전환, 버튼 탐색, 애니메이션 효과 포함.",
         "link": "https://devlunch4.github.io/css-img-slider-btn/",
         "filter": "front end",
         "img": ""
@@ -127,7 +149,7 @@
             "html",
             "css"
         ],
-        "description": "JavaScript Snake Game 구현:\nHTML, CSS, JS로 제작된 클래식 뱀 게임으로, 유튜브 튜토리얼을 참고해 개발.",
+        "description": "JavaScript Snake Game 구현:\nHTML, css, JS로 제작된 클래식 뱀 게임으로, 유튜브 튜토리얼을 참고해 개발.",
         "link": "https://devlunch4.github.io/snake-game-js/",
         "filter": "other",
         "img": ""
@@ -255,7 +277,7 @@
             "html",
             "css"
         ],
-        "description": "Frontend Mentor Testimonials Grid Section 구현:\nHTML/CSS 기반 반응형 후기 그리드 섹션.",
+        "description": "Frontend Mentor Testimonials Grid Section 구현:\nHTML/css 기반 반응형 후기 그리드 섹션.",
         "link": "https://devlunch4.github.io/testimonials-grid-section_frontend_mentor/",
         "filter": "front end",
         "img": ""
@@ -270,7 +292,7 @@
             "html",
             "css"
         ],
-        "description": "HTML, CSS, JavaScript로 만든 인터랙티브 이미지 트랙 슬라이더 연습 프로젝트.",
+        "description": "HTML, css, JavaScript로 만든 인터랙티브 이미지 트랙 슬라이더 연습 프로젝트.",
         "link": "https://devlunch4.github.io/image-track-practice/",
         "filter": "front end",
         "img": ""
@@ -284,7 +306,7 @@
             "html",
             "css"
         ],
-        "description": "Frontend Mentor Four Card Feature Section 구현:\nHTML/CSS로 제작된 반응형 카드형 레이아웃.",
+        "description": "Frontend Mentor Four Card Feature Section 구현:\nHTML/css로 제작된 반응형 카드형 레이아웃.",
         "link": "https://devlunch4.github.io/four-card-feature-section_frontend_mentor/",
         "filter": "front end",
         "img": ""
@@ -299,7 +321,7 @@
             "html",
             "css"
         ],
-        "description": "Frontend Mentor FAQ Accordion 구현:\nHTML, CSS, JavaScript로 질문 클릭 시 답변 표시되는 반응형 아코디언 UI.",
+        "description": "Frontend Mentor FAQ Accordion 구현:\nHTML, css, JavaScript로 질문 클릭 시 답변 표시되는 반응형 아코디언 UI.",
         "link": "https://devlunch4.github.io/faq-accordion_frontend_mentor/",
         "filter": "front end",
         "img": ""
@@ -349,7 +371,7 @@
             "html",
             "css"
         ],
-        "description": "HTML, CSS, JavaScript로 만든 반응형 텍스트 분석 도구:\n글자 수 계산, 반복 단어 추출, 마크다운 뷰어 기능 포함.",
+        "description": "HTML, css, JavaScript로 만든 반응형 텍스트 분석 도구:\n글자 수 계산, 반복 단어 추출, 마크다운 뷰어 기능 포함.",
         "link": "https://devlunch4.github.io/my-text-analyzer/",
         "filter": "front end",
         "img": ""
@@ -377,7 +399,7 @@
             "html",
             "css"
         ],
-        "description": "Frontend Mentor Order Summary Card 구현:\nHTML/CSS로 인터랙티브 요소 포함 레이아웃 제작.",
+        "description": "Frontend Mentor Order Summary Card 구현:\nHTML/css로 인터랙티브 요소 포함 레이아웃 제작.",
         "link": "https://devlunch4.github.io/order-summary-component_frontend_mentor/",
         "filter": "front end",
         "img": ""
@@ -448,7 +470,7 @@
             "css",
             "javascript"
         ],
-        "description": "HTML/CSS/JS로 간단한 Task List 웹페이지 제작.",
+        "description": "HTML/css/JS로 간단한 Task List 웹페이지 제작.",
         "link": "https://devlunch4.github.io/IBM_course_Develop_an_Interactive_Task_List_Web-Page/",
         "filter": "front end",
         "img": ""
