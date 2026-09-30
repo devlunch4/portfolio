@@ -235,7 +235,8 @@
         "description": "여행자는 호텔 검색/예약/관리, 호텔 운영자는 객실·예약·수익 관리 가능",
         "link": "https://quickstay-cli-srv-frontend.vercel.app/",
         "filter": "full stack",
-        "img": ""
+        "img": "",
+        "highlight": true
     },
     {
         "no": 20,
